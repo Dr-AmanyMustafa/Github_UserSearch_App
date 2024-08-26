@@ -21,7 +21,7 @@ export default function SearchBar({ onUserFound }) {
   };
   return (
     <div className="search-container">
-      <img className="search-container__icon" src="../../../public/imgs/icon-search.svg" alt="search" />
+      <img className="search-container__icon" src="/imgs/icon-search.svg" alt="search" />
       <input
         className="search-container__input"   
         type="text"
