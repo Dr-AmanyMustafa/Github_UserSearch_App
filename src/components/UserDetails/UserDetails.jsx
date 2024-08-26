@@ -58,7 +58,7 @@ export default function UserCard({ userData }) {
         <div className="user-links">
           <div className="links-container">
             <div className={`user-links__location user-link__container ${!userData?.location ? "not-available" : ""}`}>
-              <img src="../../../public/imgs/icon-location.svg" alt="location"
+              <img src="/imgs/icon-location.svg" alt="location"
                 className={`location-icon ${userData?.company ? "" : "not-available"}`}
               />
               <p className={`user-link__name`}>
@@ -66,7 +66,7 @@ export default function UserCard({ userData }) {
               </p>
             </div>
             <div className={`user-links__website user-link__container ${!userData?.blog ? "not-available" : ""}`}>              
-              <img src="../../../public/imgs/icon-website.svg" alt="link"
+              <img src="/imgs/icon-website.svg" alt="link"
                 className={`link-icon ${userData?.company ? "" : "not-available"}`}            
               />
               {userData?.blog ? (
@@ -85,7 +85,7 @@ export default function UserCard({ userData }) {
           </div>
           <div className="links-container">
             <div className="user-links__social user-link__container">
-              <img src="../../../public/imgs/icon-twitter.svg" alt="social"
+              <img src="/imgs/icon-twitter.svg" alt="social"
                 className={`social-icon ${userData?.company ? "" : "not-available"}`}            
               />            
               <p
@@ -106,7 +106,7 @@ export default function UserCard({ userData }) {
               </p>
             </div>
             <div className="user-links__company user-link__container">
-              <img src="../../../public/imgs/icon-company.svg" alt="company"
+              <img src="/imgs/icon-company.svg" alt="company"
                 className={`company-icon ${
                   userData?.company ? "" : "not-available"
                 }`}            

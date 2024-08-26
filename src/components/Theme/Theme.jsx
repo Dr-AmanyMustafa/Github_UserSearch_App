@@ -21,8 +21,8 @@ function Theme(){
           <p className="light">Dark</p>:<p className="dark">Light</p>}          
         </p> 
         <div className="dark-mode-btn__icon"> 
-          {isDarkMode ? <img src="../../../public/imgs/icon-moon.svg" alt="" /> : 
-          <img src="../../../public/imgs/icon-sun.svg" alt="" />}
+          {isDarkMode ? <img src="/imgs/icon-moon.svg" alt="" /> : 
+          <img src="/imgs/icon-sun.svg" alt="" />}
         </div>
       </button>
     </header>
