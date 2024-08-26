@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+.dark-mode-btn {
+  display: flex;
+  gap: 1rem;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+}
+.dark-mode-btn__text {
+  color: var(--text-color-light);
+
+  &:hover {
+    cursor: pointer;
+    color: var(--text-color-hover-light);
+  }  
+}
+
+.logo {
+  font-size: 1.625rem;
+  font-weight: bold;
+}
+
+@media (max-width: 750px){
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;  
+  }
+}

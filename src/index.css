@@ -1,0 +1,50 @@
+body {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+  padding-top: 1.9375rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+:root {
+  --bg-color-light: #f6f8ff;
+  --userCard-color-light: #ffff;
+  --userStatus-color-light: #F6F8FF;
+  --userStatus-text-color-light: #4B6AA7;
+  --userStatus-number-color-light: #141d2f;
+  --text-color-light: #4b6a9b;
+  --Btn-text-color-light: #fff;
+  --text-color-hover-light: #141d2f ;
+  --searchInput-color-light: #ffffff;
+  --button: #0079ff;
+  --button-hover: #528FFF;
+}
+[dark-theme='dark']{
+  --userCard-color-light: #1e2a47;
+  --userStatus-color-light: #141D2F;
+  --userStatus-number-color-light: #fff;
+  --bg-color-light: #141d2f;
+  --text-color-light: #ffffff;
+  --text-color-hover-light: #4b6a9b;
+  --searchInput-color-light: #20222F;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Space Mono", monospace;
+}
+button,
+input {
+  font-family: "Space Mono", monospace;
+  color: var(--text-color-light);
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
